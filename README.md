@@ -1,0 +1,1 @@
+# Comparison_of_synthesized_pathology_patch_image
