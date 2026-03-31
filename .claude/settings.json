@@ -27,7 +27,8 @@
       "Bash(/home/user/anaconda3/envs/urban/bin/python -c \"import pytorch_lightning; print\\(''pl ok''\\)\")",
       "Bash(/home/user/anaconda3/envs/urban/bin/pip install:*)",
       "Bash(/home/user/anaconda3/envs/urban/bin/python -c \":*)",
-      "Bash(python3 -c \":*)"
+      "Bash(python3 -c \":*)",
+      "Bash(nvidia-smi --query-gpu=name,memory.total,memory.used,memory.free --format=csv)"
     ]
   }
 }
