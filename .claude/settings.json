@@ -5,7 +5,9 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(gh api:*)",
       "WebFetch(domain:api.github.com)",
-      "Read(//home/urban/urban/data/NIPA/origin/**)"
+      "Read(//home/urban/urban/data/NIPA/origin/**)",
+      "Bash(conda run:*)",
+      "Bash(conda list:*)"
     ]
   }
 }

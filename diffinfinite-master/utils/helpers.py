@@ -36,6 +36,15 @@ def convert_image_to_fn(img_type, image):
     if image.mode != img_type:
         return image.convert(img_type)
     return image
+
+
+# normalization functions
+
+def normalize_to_neg_one_to_one(img):
+    return img
+
+def unnormalize_to_zero_to_one(t):
+    return t
     
     
 # Classifier free guidance functions
