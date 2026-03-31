@@ -16,7 +16,10 @@ from contextlib import contextmanager
 from functools import partial
 from tqdm import tqdm
 from torchvision.utils import make_grid
-from pytorch_lightning.utilities.distributed import rank_zero_only
+try:
+    from pytorch_lightning.utilities.distributed import rank_zero_only
+except ImportError:
+    from pytorch_lightning.utilities.rank_zero import rank_zero_only
 
 # from pytorch_lightning.utilities.rank_zero import rank_zero_only
 
