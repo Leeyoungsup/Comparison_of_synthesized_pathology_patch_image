@@ -7,7 +7,27 @@
       "WebFetch(domain:api.github.com)",
       "Read(//home/urban/urban/data/NIPA/origin/**)",
       "Bash(conda run:*)",
-      "Bash(conda list:*)"
+      "Bash(conda list:*)",
+      "Bash(pip list:*)",
+      "Bash(python3 -c \"import torch; print\\(torch.__version__\\)\")",
+      "Bash(python3 -c \"import accelerate; print\\(accelerate.__version__\\)\")",
+      "Bash(python3 -c \"import diffusers; print\\(diffusers.__version__\\)\")",
+      "Read(//opt/conda/**)",
+      "Read(//home/user/miniconda3/**)",
+      "Bash(/home/user/anaconda3/envs/urban/bin/python -c \"import torch; print\\(''torch:'', torch.__version__\\)\")",
+      "Bash(/home/user/anaconda3/envs/urban/bin/python -c \"import accelerate; print\\(''accelerate:'', accelerate.__version__\\)\")",
+      "Bash(/home/user/anaconda3/envs/urban/bin/python -c \"import diffusers; print\\(''diffusers:'', diffusers.__version__\\)\")",
+      "Bash(/home/user/anaconda3/envs/urban/bin/python -c \"import ldm\")",
+      "Bash(/home/user/anaconda3/envs/urban/bin/pip list:*)",
+      "Bash(/home/user/anaconda3/envs/mmdet/bin/python -c \"import torch; print\\(''torch:'', torch.__version__\\)\")",
+      "Bash(/home/user/anaconda3/envs/mmdet/bin/python -c \"import accelerate; print\\(''accelerate:'', accelerate.__version__\\)\")",
+      "Bash(/home/user/anaconda3/envs/mmdet/bin/python -c \"import diffusers; print\\(''diffusers:'', diffusers.__version__\\)\")",
+      "Bash(/home/user/anaconda3/envs/urban/bin/python -c \"import omegaconf; print\\(''omegaconf ok''\\)\")",
+      "Bash(/home/user/anaconda3/envs/urban/bin/python -c \"import taming\")",
+      "Bash(/home/user/anaconda3/envs/urban/bin/python -c \"import pytorch_lightning; print\\(''pl ok''\\)\")",
+      "Bash(/home/user/anaconda3/envs/urban/bin/pip install:*)",
+      "Bash(/home/user/anaconda3/envs/urban/bin/python -c \":*)",
+      "Bash(python3 -c \":*)"
     ]
   }
 }
