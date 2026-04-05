@@ -7,7 +7,9 @@
       "WebFetch(domain:api.github.com)",
       "Read(//home/urban/urban/data/NIPA/origin/**)",
       "Bash(conda run:*)",
-      "Bash(conda list:*)"
+      "Bash(conda list:*)",
+      "Bash(python3 -c ':*)",
+      "Read(//home/urban/urban/model/NIPA/diffinfinite/**)"
     ]
   }
 }
